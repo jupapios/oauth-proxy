@@ -5,7 +5,7 @@
   "main": "lib/oauth-proxy.js",
   "scripts": {
     "start": "env `cat .env` node bin/www",
-    "test": "env `cat .env.test` mocha"
+    "test": "mocha --require test/support/env"
   },
   "repository": {
     "type": "git",
