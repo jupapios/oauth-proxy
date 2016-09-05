@@ -17,3 +17,9 @@ cp .env.example .env
 ```
 npm test
 ```
+
+## Usage
+
+### Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
