@@ -1,0 +1,32 @@
+{
+  "name": "oauth-proxy",
+  "version": "0.0.1",
+  "description": "Simple proxy for the oauth service to keep the OAUTH_CLIENT_ID and OAUTH_CLIENT_SECRET secret",
+  "main": "lib/oauth-proxy.js",
+  "scripts": {
+    "start": "env `cat .env` node bin/www",
+    "test": "env `cat .env.test` mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotik/oauth-proxy.git"
+  },
+  "keywords": [
+    "oauth",
+    "proxy"
+  ],
+  "author": "Juan Pablo Pinilla Ossa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gotik/oauth-proxy/issues"
+  },
+  "homepage": "https://github.com/gotik/oauth-proxy#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}

@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+const app = require('../lib/oauth-proxy');
+
+app.listen(process.env.PORT || 3000, function() {
+  console.log(`oauth proxy server listening on port ${this.address().port}`);
+});
