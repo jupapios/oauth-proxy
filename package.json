@@ -15,6 +15,10 @@
     "oauth",
     "proxy"
   ],
+  "engines": {
+    "node": "6.5.0",
+    "npm": "3.x.x"
+  },
   "author": "Juan Pablo Pinilla Ossa",
   "license": "ISC",
   "bugs": {
