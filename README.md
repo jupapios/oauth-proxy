@@ -1,4 +1,4 @@
-# oauth proxy [![CircleCI](https://circleci.com/gh/gotik/oauth-proxy.svg?style=shield)](https://circleci.com/gh/gotik/oauth-proxy)
+# oauth proxy [![CircleCI Build][circleci-image]][circleci-url] [![AppVeyor Build][appveyor-image]][appveyor-url]
 
 Simple proxy for the oauth service to keep the `client_secret` and `client_id` secret
 
@@ -56,3 +56,8 @@ Change your client apps to hit the oauth proxy `http://localhost:3000`
 ```
 npm test
 ```
+
+[circleci-url]: https://circleci.com/gh/gotik/oauth-proxy
+[appveyor-url]: https://ci.appveyor.com/project/gotik/oauth-proxy
+[circleci-image]: https://circleci.com/gh/gotik/oauth-proxy.svg?style=shield
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/go5lqt3wwm949ci7?svg=true
