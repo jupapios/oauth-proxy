@@ -11,7 +11,7 @@ Simple proxy for the oauth service to keep the `client_secret` and `client_id` s
 ### Custom app
 
 ```bash
-npm install https://github.com/gotik/oauth-proxy.git --save
+npm install gotik/oauth-proxy --save
 ```
 
 ```js
