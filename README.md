@@ -8,6 +8,23 @@ Simple proxy for the oauth service to keep the `client_secret` and `client_id` s
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
+### Custom app
+
+```bash
+npm install https://github.com/gotik/oauth-proxy.git --save
+```
+
+```js
+const proxy = require('oauth-proxy');
+const port = process.env.PORT || 3000;
+proxy.listen(port, function() {
+  console.log(`oauth proxy server listening on port ${this.address().port}`);
+});
+
+```
+
+Remember to define the [env variables](.env.example).
+
 ## Development
 
 ### Setup
@@ -15,7 +32,7 @@ Simple proxy for the oauth service to keep the `client_secret` and `client_id` s
 #### 1. Install the project
 
 ```bash
-git clone git@github.com:gotik/oauth-proxy.git && cd oauth-proxy
+git clone https://github.com/gotik/oauth-proxy.git && cd oauth-proxy
 npm install
 cp .env.example .env
 ```
