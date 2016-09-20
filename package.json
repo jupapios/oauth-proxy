@@ -19,7 +19,7 @@
     "node": "6.5.0",
     "npm": "3.x.x"
   },
-  "author": "Juan Pablo Pinilla Ossa",
+  "author": "Juan Pablo Pinilla Ossa <juan@kamikazepanda.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gotik/oauth-proxy/issues"
